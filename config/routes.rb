@@ -1,5 +1,5 @@
 Marynet::Application.routes.draw do
   
-  root :to => 'pages#index'
+  root :to => 'pages#home'
 
 end
