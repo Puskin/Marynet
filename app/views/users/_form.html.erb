@@ -1,0 +1,13 @@
+<%= form_for(@user) do |f| %>
+
+	<%= render 'shared/error_messages', object: f.object %>
+
+	<%= f.text_field :name, :placeholder => "nick" %><br/>
+	<%= f.text_field :email, :placeholder => "e-mail" %><br/>
+
+	<%= f.password_field :password, :placeholder => "hasło" %><br/>
+	<%= f.password_field :password_confirmation, :placeholder => "potwierdzenie hasła" %><br/>
+
+	<%= f.submit "zarejestruj się", :class => "button", :disable_with => "Ładowanie" %>
+	
+<% end %>
