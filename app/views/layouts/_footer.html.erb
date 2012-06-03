@@ -4,4 +4,6 @@
 <% unless signed_in? %>
 	 | <%= link_to "Rejestracja", signup_path %> | 
 	<%= link_to "Logowanie", signin_path %>
+<% else %>
+	<p style="float: right"><%= link_to "Post", new_post_path %></p>
 <% end %>
