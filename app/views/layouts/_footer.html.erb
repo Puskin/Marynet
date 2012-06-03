@@ -1,0 +1,5 @@
+	<%= link_to "Główna", root_path %>
+<% unless signed_in? %>
+	 | <%= link_to "Rejestracja", signup_path %> | 
+	<%= link_to "Logowanie", signin_path %>
+<% end %>

@@ -1,0 +1,4 @@
+<% if signed_in? %>
+	Zalogowany jako <%= current_user.email %> | 
+	<%= link_to '[wyloguj się]', signout_path, method: 'delete' %>
+<% end %>
