@@ -12,11 +12,14 @@
 		<div class="alert alert-<%= key %>"><%= value %></div>
 	<% end %>
 
-	<%= render 'layouts/header' %>
+		<%= render 'layouts/header' %>
+	<hr/>
 
 	<%= yield %>
 	
-	<%= render 'layouts/footer' %>
+	<hr/>
+		<%= render 'layouts/footer' %>
+	<hr/>
 
 </body>
 </html>
