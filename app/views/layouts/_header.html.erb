@@ -2,7 +2,7 @@
 
 <% if signed_in? %>
 	<p>Zalogowany jako <%= current_user.email %> | 
-	<%= link_to '[wyloguj się]', signout_path, method: 'delete' %></p>
+	<%= link_to 'wyloguj się', signout_path, method: 'delete', :class => 'button' %></p>
 <% end %>
 
 </div>

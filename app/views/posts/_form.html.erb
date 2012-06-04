@@ -1,6 +1,7 @@
 <%= form_for(@post) do |f| %>
 
-	<%= f.text_field :title, :placeholder => 'tytuł' %>
+	<%= f.text_field :title, :placeholder => 'tytuł' %><br/>
+	<%= f.file_field :picture %><br/>
 	<%= f.submit 'dodaj' %>
 
 <% end %>

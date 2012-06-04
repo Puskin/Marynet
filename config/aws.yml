@@ -1,0 +1,8 @@
+development:
+  bucket: marynet-dev
+  access_key_id: AKIAJTPVER7OKESKO2ZA
+  secret_access_key: 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
+production:
+  bucket: marynet-prod
+  access_key_id: AKIAJTPVER7OKESKO2ZA
+  secret_access_key: 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
