@@ -14,3 +14,6 @@ doc/
 *~
 .project
 .DS_Store
+
+# Ignore AWS config file
+/config/aws.yml
