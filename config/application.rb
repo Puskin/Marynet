@@ -55,8 +55,5 @@ module Marynet
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-
-    # Paperclip config for models
-    config.paperclip_defaults = { :storage => :s3, :s3_credentials => "#{Rails.root}/config/aws.yml" }
   end
 end
