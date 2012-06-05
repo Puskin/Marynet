@@ -73,5 +73,5 @@ hr { border: 0; border-bottom: 1px dotted gray }
 
 .header p { text-align: right }
 .button { display: inline-block; background: gray; color: #fff; padding: 0 5px; line-height: 22px; text-decoration: none }
-.stream img { width: 400px; }
 
+.stream span { text-align: center; display: block; margin-bottom: 10px; }
