@@ -1,2 +1,4 @@
 <%= post.title %><br/>
-<%= image_tag(post.picture) if post.picture %></br>
+<%= image_tag post.picture(:thumb) %></br>
+<%= image_tag post.picture(:medium) %></br>
+<%= image_tag post.picture(:normal) %></hr>
