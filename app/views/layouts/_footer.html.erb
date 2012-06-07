@@ -5,5 +5,7 @@
 	 | <%= link_to "Rejestracja", signup_path %> | 
 	<%= link_to "Logowanie", signin_path %>
 <% else %>
-	<p class="align-right"><%= link_to "Post", new_post_path %></p>
+	<p class="align-right">
+		<%= link_to "Post", new_post_path %> | <%= link_to "Usuwanie", posts_path %>
+	</p> 
 <% end %>

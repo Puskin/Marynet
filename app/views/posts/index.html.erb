@@ -1,0 +1,9 @@
+<ul class="thumbs">
+	<% @posts.each do |post| %>
+		<li id="<%=post.id%>">
+			<%= post.title %><br/>
+			<%= link_to image_tag(post.picture(:thumb)), post_path(post) %><br/>
+			<%= link_to "usuń", post, method: :delete, :remote => true %>
+		</li>
+	<% end %>
+</ul>

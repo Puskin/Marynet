@@ -1,4 +1,4 @@
 <span>
 	<%= post.title %><br/>
-	<%= image_tag post.picture(:medium) %>
+	<%= link_to image_tag(post.picture(:medium)), post_path(post) %>
 </span>

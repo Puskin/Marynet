@@ -2,8 +2,8 @@ Marynet::Application.routes.draw do
 
 	resources :users, only: [:new, :create]
 	resources :sessions, only: [:new, :create, :destroy]
-	resources :posts, only: [:new, :create]
-  
+	resources :posts
+	  
   root :to => 'pages#home'
 
   match '/signup', to: 'users#new'
